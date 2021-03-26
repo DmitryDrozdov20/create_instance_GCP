@@ -4,7 +4,7 @@ variable "node_count" {
 
 variable "instance_tags" {
   type    = list(string)
-  default = ["jenkins_clean", "prod"]
+  default = ["jenkinsclean", "prod"]
 }
 
 variable "machine_type" {
